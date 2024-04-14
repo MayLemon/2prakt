@@ -1,0 +1,30 @@
+.container_3{
+    display: grid;
+    grid-template-columns: 367px 367px 367px;
+    grid-template-rows: 220px 550px ;
+    margin-left: 100px;
+    margin-top: 100px;
+    column-gap: 20px;
+
+}
+.box1{
+    grid-row: 1/1;
+    grid-column: 1/4;
+    font-weight: 600;
+    font-size: 50px;
+}
+.box2{
+    grid-row: 2/2;
+    grid-column: 1/1;
+    @include boxy;
+}
+@mixin boxy{
+    padding-left: 3%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.box3{
+    grid-row: 2/2;
+    @include boxy;
+   
+}

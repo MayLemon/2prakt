@@ -1,0 +1,8 @@
+.forms {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: red;
+  width: 1920px;
+  height: 460px;
+}/*# sourceMappingURL=forms.css.map */

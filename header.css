@@ -1,0 +1,23 @@
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.header_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  color: white;
+  background-color: #141024;
+  border-bottom: 1px solid white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=header.css.map */

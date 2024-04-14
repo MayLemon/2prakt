@@ -1,0 +1,25 @@
+@mixin header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    
+}
+body{
+    font-family: "Jost", sans-serif;
+    
+}
+.header_container{
+    width: 100%;
+    @include header();
+    background-color:  #141024;
+    border-bottom: 1px solid white;
+    
+       
+}
+
+.nav{
+    @include header();
+    font-size: 20px;
+}

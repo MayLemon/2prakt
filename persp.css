@@ -1,0 +1,24 @@
+.container_2 {
+  display: grid;
+  grid-template-columns: 367px 367px 367px;
+  grid-template-rows: 220px 220px 220px 220px 220px 220px 220px;
+  margin-left: 100px;
+  margin-top: 150px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.cell_1 {
+  grid-row: 1/1;
+  grid-column: 1/4;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cell_2 {
+  grid-row: 4/4;
+  grid-column: 1/2;
+}/*# sourceMappingURL=persp.css.map */
